@@ -1,18 +1,40 @@
-# Aspose.Barcode Java for PHP
-Aspose Barcode Java for PHP is a PHP project that demonstrates / provides the Aspose.Barcode for Java API usage examples in PHP by using PHP/JAVA Bridge.
+# Aspose-Barcode-Java-for-PHP
+Project Aspose.Barcode for PHP shows how different tasks can be performed using Aspose.Barcode Java APIs in PHP. This project is aimed to provide useful examples for PHP Developers who want to utilise Aspose.Barcode for Java in their PHP Projects using PHP/Java Bridge.
 
-You will need to configure PHP/Java Bridge before using any of the Aspose provided Java APIs in PHP e.g Aspose.Words, Aspose.Cells and Aspose.Slides etc.
+### System Requirements
+* Tomcat Server 8.0 or above installed.
+* PHP/JavaBridge is configured.
+* FastCGI is installed.
+* Downloaded Aspose.Barcode component.
 
-For the configuration/setup of PHP/Java Bridge, please see:
+### Supported Platforms
+* PHP 5.3 or above 
+* Java 1.8 or above 
 
-http://php-java-bridge.sourceforge.net/pjb/index.php
+#### Configure Aspose.Barcode Java for PHP Examples
+##### Method 1
+* Clone the Repository
+```
+git clone git@github.com:asposemarketplace/Aspose-Barcode-Java-for-PHP.git
+```
+* Setup the project using composer
+```
+composer install
+```
+##### Mothod 2
+* In your PHP Project's composer.json file add following lines
+```
+{
+    "require": {
+        "asposebarcode/aspose_barcode_java_for_php": "dev-master"
+    }
+}
+```
+and run the install command
+```
+composer install
+```
 
-To download Aspose.Barcode for Java API to be used with these examples through PHP/Java Bridge
-Please navigate to:
+Read more about composer on http://www.getcomposer.com
 
-http://www.aspose.com/community/files/72/java-components/aspose.barcode-for-java/
-
-For most complete documentation of the project, check Aspose.Barcode Java for PHP confluence wiki link:
-
-http://www.aspose.com/docs/display/barcodejava/3.+Aspose.Barcode+Java+For+PHP
-
+Read more about installation of Tomcat & Java Bridge on http://www.aspose.com/docs/display/barcodejava/3.1.3+Downloads+and+Configure
